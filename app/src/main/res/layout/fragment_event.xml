@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorAccent"
+    tools:context="com.example.hp.fragmentlab.Events.EventFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn_generate_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+
+
+</RelativeLayout>
